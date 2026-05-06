@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def generate_base_data(n_train=100, n_test=1000, max_d=300, d_true=10, noise_std=0.5, seed=42):
+def generate_base_data(n_train, n_test, max_d, d_true, noise_std, seed):
     """
     Generates one synthetic dataset for the whole double descent experiment.
 
